@@ -6,7 +6,7 @@ import { sampleData } from "../data/sampleData";
 import styles from "@/app/page.module.css";
 
 export default function Home() {
-  const [data, setData] = useState(sampleData);
+  const [data] = useState(sampleData);
 
   return (
     <main className={styles.main}>
